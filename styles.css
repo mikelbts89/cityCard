@@ -6,3 +6,19 @@
     display: inline-block;
     text-align: center;
 }
+
+#inputDiv {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+#cityForm {
+    padding: 10px;
+}
