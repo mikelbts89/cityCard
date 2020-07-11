@@ -24,9 +24,11 @@ function createCityCard() {
   likeParag.appendTo(mainCardDiv);
 
   function addLike() {
-    let clicks = 1;
+    let clicks = 0;
     likeBtn.on("click", () => {
-      likeParag.html(clicks);
+      setTimeout(() => {
+        likeParag.html(clicks);
+      }, 2000)
       clicks += 1;
     });
     console.log(clicks);
