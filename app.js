@@ -31,9 +31,10 @@ function createCityCard() {
       }, 2000)
       clicks += 1;
     });
-    console.log(clicks);
   }
   addLike();
+  $("#cityName").val("");
+  $("#cityUrl").val("");
 }
 
 function addCityForm() {
